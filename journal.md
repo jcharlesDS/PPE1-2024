@@ -1,1 +1,2 @@
 Journal de bord du projet encadré
+## J'ai crée un repositoy sur Github, cloner et récupérer le git sur mon ordinateur (avec les commandes, git clone, git status, git fetch et git pull). Par la suite, j'ai crée un journal de bord sur Git, vérifier si mon dossier était à jour comparé au dossier Git en ligne (git log et git status) et je suis en train de remplir mon journal de bord du projet encadré.
