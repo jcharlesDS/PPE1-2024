@@ -1,0 +1,75 @@
+Exercice 1a
+
+cd ~/Exercice1/ann2/2016
+
+cat *.ann |wc -l | xargs echo -e "Annotations en 2016 : \n"> comptes.txt
+
+cd ~/Exercice1/ann2/2017
+
+cat *.ann |wc -l | xargs echo -e "Annotations en 2017 : \n">> ~/Exercice1/ann2/2016/comptes.txt
+
+cd ~/Exercice1/ann2/2018
+
+cat *.ann |wc -l | xargs echo -e "Annotations en 2018 : \n">> ~/Exercice1/ann2/2016/comptes.txt
+
+cd ~/Exercice1/ann2/2016
+
+mv comptes.txt ~/Git/PPE1-2024/Exercices
+
+
+
+Exercice 1b
+
+cat *.ann | grep -c Location | xargs echo -e "Locations en 2016: \n" > locations.txt
+
+cd ~/Exercice1/ann2/2017
+
+cat *.ann | grep -c Location | xargs echo -e "Locations en 2017: \n" >> locations.txt
+
+cd ~/Exercice1/ann2/2018
+
+cat *.ann | grep -c Location | xargs echo -e "Locations en 2018: \n" >> locations.txt
+
+mv ~/Exercice1/ann2/2016/locations.txt ~/Git/PPE1-2024/Exercices
+
+
+
+
+
+Exercice 2a
+
+grep 'Location' *.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 > classement_2016.txt
+
+mv ~/Exercice1/ann2/2016/classement_2016.txt ~/Git/PPE1-2024/Exercices
+
+
+cd ~/Exercice1/ann2/2017
+
+grep 'Location' *.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 > classement_2017.txt
+
+mv ~/Exercice1/ann2/2017/classement_2017.txt ~/Git/PPE1-2024/Exercices
+
+cd ~/Exercice1/ann2/2018
+
+grep 'Location' *.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 > classement_2018.txt
+
+mv ~/Exercice1/ann2/2018/classement_2018.txt ~/Git/PPE1-2024/Exercices
+
+
+Exercice 2b
+
+cd ~/Exercice1/ann2/2016
+
+grep 'Location' 2016_07*.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 > juillet.txt
+
+
+cd ~/Exercice1/ann2/2017
+
+grep 'Location' 2017_07*.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 >> ~/Exercice1/ann2/2016/juillet.txt
+
+
+cd ~/Exercice1/ann2/2018
+
+grep 'Location' 2018_07*.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 >> ~/Exercice1/ann2/2016/juillet.txt
+mv ~/Exercice1/ann2/2016/juillet.txt ~/Git/PPE1-2024/Exercices
+
