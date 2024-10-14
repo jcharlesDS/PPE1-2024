@@ -1,7 +1,7 @@
 Journal de bord du projet encadré
 
 Rules are meant to be broken
-
+Cette ligne doit rester après correction
 
 ## Manipulation sur Git
 
