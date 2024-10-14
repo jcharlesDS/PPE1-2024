@@ -1,7 +1,7 @@
 Journal de bord du projet encadré
 
 Rules are meant to be broken
-Cette ligne doit rester après correction
+
 
 ## Manipulation sur Git
 
@@ -15,3 +15,10 @@ L'exercice concernant les pipelines était un calvaire pour moi. J'ai pris énor
 
 ## Corriger les erreurs
 
+
+Pour l'instant l'exercice a l'air plus simple que celui des pipelines. Espérons que cela continue ainsi.
+J'ai utilisé un git show et un git revert commit afin d'avancer dans l'exercice.
+J'ai par la suite, rempli mon journal de bord de mes instructions sur cette exercice, git add, git commit plusieurs fois.
+J'ai ensuite git reset tag afin de revenir à la progression du Git lié au tag.
+Après, j'ai effacé le fichier oups.md, récupérer mon avancement, git add, git commit et push.
+Je dirais que la différence entre les deux méthodes de récupération se trouvent dans le facteur risque. Le git reset semble plus dangeureux à l'utilisation.
