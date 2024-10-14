@@ -22,3 +22,5 @@ J'ai par la suite, rempli mon journal de bord de mes instructions sur cette exer
 J'ai ensuite git reset tag afin de revenir à la progression du Git lié au tag.
 Après, j'ai effacé le fichier oups.md, récupérer mon avancement, git add, git commit et push.
 Je dirais que la différence entre les deux méthodes de récupération se trouvent dans le facteur risque. Le git reset semble plus dangeureux à l'utilisation.
+
+Cette ligne sera mise de coté pour plus tard.
