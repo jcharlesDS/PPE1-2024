@@ -45,13 +45,13 @@ mv ~/Exercice1/ann2/2016/classement_2016.txt ~/Git/PPE1-2024/Exercices
 
 cd ~/Exercice1/ann2/2017
 
-grep 'Location' *.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 > classement_2017.txt
+grep 'Location' *.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 >> classement_2017.txt
 
 mv ~/Exercice1/ann2/2017/classement_2017.txt ~/Git/PPE1-2024/Exercices
 
 cd ~/Exercice1/ann2/2018
 
-grep 'Location' *.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 > classement_2018.txt
+grep 'Location' *.ann |cut -f 3 | sort -k 3,3 | uniq -c | sort -n | tail -n 15 >> classement_2018.txt
 
 mv ~/Exercice1/ann2/2018/classement_2018.txt ~/Git/PPE1-2024/Exercices
 
