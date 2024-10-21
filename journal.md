@@ -26,7 +26,7 @@ J'ai git stash push -m "Conservation des changements séance" afin de mettre de 
 Git stash show (pour voir la modification en question)
 git stash pop (pour appliquer les modifications et supprimer par la suite le stash)
 J'aurai pu aussi utiliser git stash drop (pour supprimer manuellement le stash) mais j'ai préféré utilisé la première formule.
-FInalement, j'ai rempli mon journal de bord, git add, git commit et git push le tout, en n'oubliant pas de rajouter le tag à la fin et de le push.
+Finalement, j'ai rempli mon journal de bord, git add, git commit et git push le tout, en n'oubliant pas de rajouter le tag à la fin et de le push.
 
 Cette ligne sera mise de coté pour plus tard.
 
