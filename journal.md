@@ -29,3 +29,12 @@ J'aurai pu aussi utiliser git stash drop (pour supprimer manuellement le stash) 
 FInalement, j'ai rempli mon journal de bord, git add, git commit et git push le tout, en n'oubliant pas de rajouter le tag à la fin et de le push.
 
 Cette ligne sera mise de coté pour plus tard.
+
+## Explication de code
+
+La première instruction cherche à déterminer s'il y plus d'un argument. Si cela est le cas, le message "ce programme demande un argument" s'affichera. Ensuite, c'est une déclaration de variable (FICHIER_URLS=$1, OK=O, NOK=0).
+La boucle while elle lit ligne par ligne le FICHIER_URLS et enregistre en variable un URL écrit par l'utilisateur pour ensuite avec l'instruction suivante if, vérifier si l'adresse ressemble au format d'une adresse URL valide (https://), si c'est le cas, un message s'affiche (ressemble à une URL valide) et enregistre la ligne valide (par la ligne OK et la fonction expr). Inversement, si le script détermine que l'URL ne ressemble pas à une URL valide, elle l'enregistre également (avec la ligne NOK).
+Finalement, le script arrête sa lecture du fichier et envoie les résultats sur l'écran de l'utilisateur montrant le nombre de lignes "valide" et le nombre de lignes douteuses.
+
+## Exercices de scripts BASH
+Alors, j'ai particuliérement apprécié cet exercie. Pas spécialement parce que je l'ai réussi, je sais que pas mal de mes rendus ne sont pas exactement ce que la consigne demande. Mais c'est le fait d'avoir réussi à produire quelque chose qui fonctionne, rentrant à peu près dans le cadre de l'exercice et d'avoir compris ce que j'ai produis.
