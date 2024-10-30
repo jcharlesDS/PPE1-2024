@@ -38,3 +38,7 @@ Finalement, le script arrête sa lecture du fichier et envoie les résultats sur
 
 ## Exercices de scripts BASH
 Alors, j'ai particuliérement apprécié cet exercie. Pas spécialement parce que je l'ai réussi, je sais que pas mal de mes rendus ne sont pas exactement ce que la consigne demande. Mais c'est le fait d'avoir réussi à produire quelque chose qui fonctionne, rentrant à peu près dans le cadre de l'exercice et d'avoir compris ce que j'ai produis.
+
+## Projet de groupe - prémice
+
+Création du Git du projet de groupe, modification des READMEs avec les liens des githubs personnels. Lien du Github du groupe dans mon Readme.
