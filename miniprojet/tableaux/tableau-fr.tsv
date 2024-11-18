@@ -1,11 +1,0 @@
-Numéro	Nom du Site	URL	Code HTTP	Encodage	Nombre de Mots
-1	fr.wikipedia.org	https://fr.wikipedia.org/wiki/Robot	200	x-content-type-options: nosniff	6401
-2	fr.wikipedia.org	https://fr.wikipedia.org/wiki/Robot_de_cuisine	200	x-content-type-options: nosniff	1171
-3		fr.wikipedia.org/wiki/Robot_d%27indexation	301	Unknown	0
-4	fr.wikipedia.org	https://fr.wikipedia.org/wiki/Bot_informatique	200	x-content-type-options: nosniff	2278
-5	fr.wikipedia.org	https://fr.wikipedia.org/wiki/Atlas_(robot)	200	x-content-type-options: nosniff	1157
-6	roboty.magistry.fr	https://roboty.magistry.fr	200	Content-Type: text/html	35
-7	fr.wikipedia.org	https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)	404	x-content-type-options: nosniff	440
-8	fr.wiktionary.org	https://fr.wiktionary.org/wiki/robot	200	x-content-type-options: nosniff	4525
-9	fr.wikipedia.org	https://fr.wikipedia.org/wiki/Protocole_d%27exclusion_des_robots	200	x-content-type-options: nosniff	1048
-10	fr.wikipedia.org	https://fr.wikipedia.org/wiki/Robotique	200	x-content-type-options: nosniff	12985

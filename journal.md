@@ -48,8 +48,12 @@ Création du Git du projet de groupe, modification des READMEs avec les liens de
 
 La fonction cat peut être utilisé pour les liens html mais, elle nous donnera pas la même forme que la page web, simplement la forme texte brut avec les balises html. Elle n'interprète pas le html.
 
-Mettre le fichier "urls/fr.txt" en variable "input_file" (dans mon cas, ici, donner l'adresse du fichier avec le ternimal) puis verifier si le fichier existe ou pas. Si il n'existe pas, le programme écrit un message d'erreur et s'arrête. Si le fichier existe, le programme continue.
+Mettre le fichier "urls/fr.txt" en variable "input_file" (dans mon cas, ici, donner l'adresse du fichier avec le terminal) puis verifier si le fichier existe ou pas. Si il n'existe pas, le programme écrit un message d'erreur et s'arrête. Si le fichier existe, le programme continue.
 
 Créer une variable "line_number" et l'augmenter de 1 à la fin du script, puis utiliser cette variable avec la fonction echo afin de formatter le résultat écrit dans le fichier de sortie du script et afficher le numéro à l'avant. A chaque fois que le script lira une ligne avec un url, il augmentera la variable "line_number" et l'associera au lien utilisé. On utilise également la commande "\t" pour la tabulation.
+
+## Miniprojet - 2
+
+PLutôt clair, plutôt simple. Pas grand chose à dire de plus pour cet exercice.
 
 
