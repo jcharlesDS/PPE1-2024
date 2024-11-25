@@ -56,4 +56,7 @@ Créer une variable "line_number" et l'augmenter de 1 à la fin du script, puis 
 
 PLutôt clair, plutôt simple. Pas grand chose à dire de plus pour cet exercice.
 
+## Miniprojet - 3
+
+Alors, il était pas compliqué en soit, il y a juste beaucoup de possibilités et souvent j'oubliais soi un guillemet, soit je ratais la structure CSS mais l'essentiel, c'est que maintenant ça fonctionne ! Ah oui, j'ai aussi modifié le script pour qu'il ne bute pas sur l'url sans la forme https et qu'il traite les liens d'un fichier txt puis qu'il les passe en tsv et qu'en fonction du besoin, il les transforme en html avec le style bulma integré.
 
