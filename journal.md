@@ -1,6 +1,6 @@
-Journal de bord du projet encadré
+## Journal de bord du projet encadré
 
-# Rules are meant to be broken
+Rules are meant to be broken
 
 
 ## Manipulation sur Git
@@ -54,7 +54,7 @@ Créer une variable "line_number" et l'augmenter de 1 à la fin du script, puis 
 
 ## Miniprojet - 2
 
-PLutôt clair, plutôt simple. Pas grand chose à dire de plus pour cet exercice.
+Plutôt clair, plutôt simple. Pas grand chose à dire de plus pour cet exercice.
 
 ## Miniprojet - 3
 
