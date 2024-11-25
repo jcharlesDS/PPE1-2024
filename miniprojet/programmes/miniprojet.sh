@@ -83,7 +83,7 @@ if [[ "$convert_to_html" == "oui" ]]; then
 
 <nav class='navbar is-light'>
     <div class='navbar-brand'>
-        <a class='navbar-item' href='index.html'>
+        <a class='navbar-item' href='../../index.html'>
             <h1 class='title is-4'>Mini-Projet</h1>
         </a>
     </div>
